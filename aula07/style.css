@@ -1,0 +1,119 @@
+* {
+  color: black;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 300px;
+  background-image: url("https://wallpaperset.com/w/full/1/2/5/187214.jpg");
+  background-color: #ffffff;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.page-logo {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  max-width: 650px;
+  max-height: 150px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  background-color: #2f6db5;
+  border-radius: 5px;
+  color: #ffcb05;
+  width: 300px;
+  margin: 5px auto;
+  padding: 10px 0px;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #000;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#carta-jogador {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 20px;
+  background-color: #ffcb05;
+  box-shadow: 5px 5px 9px #2f6db5;
+  border-radius: 5px;
+  color: #2f6db5;
+  width: 200px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 1.5rem;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.opcoes {
+  font-size: 20px;
+  background-color: #ffcb05;
+  box-shadow: 5px 5px 9px #2f6db5;
+  border-radius: 5px;
+  color: #2f6db5;
+  width: 500px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  visibility: hidden;
+}
+
+#resultado {
+  font-size: 20px;
+  background-color: #ffcb05;
+  box-shadow: 5px 5px 9px #2f6db5;
+  border-radius: 5px;
+  color: #2f6db5;
+  width: 500px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  padding: 10px 10px;
+}
