@@ -1,4 +1,4 @@
-# Imersâo Dev - Alura
+# Imersão Dev - Alura
 
 Olá! Este é o portfólio dos projetos finalizados na semana de imersão utilizando o CodePen.
 
