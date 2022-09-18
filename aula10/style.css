@@ -156,6 +156,7 @@ footer img:hover {
 
 .dark {
     background: linear-gradient(236.85deg, #5b5d66, #041832);
+    background-attachment: fixed;
 }
 
 .dark .container {
