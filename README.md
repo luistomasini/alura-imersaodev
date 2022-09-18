@@ -8,7 +8,7 @@ Olá! Este é o portfólio dos projetos finalizados na semana de imersão utiliz
 
 ## Além das pastas do repositório, acesse os projetos no meu perfil do CodePen!
 
-🔗 [Clique aqui para acessar](https://codepen.io/luistomasini)
+🔗 [Clique aqui para acessar](https://luistomasini.github.io/alura-imersaodev/aula10/)
 
 ## O que aprendi
 
