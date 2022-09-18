@@ -68,6 +68,13 @@ body {
     margin-top: 30px;
 }
 
+.portfolio {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 16px;
+  }
+
 .projetos {
     display: flex;
     flex-direction: column;
@@ -79,13 +86,39 @@ body {
     border-radius: 20px;
     color: #ecf4ff;
     width: 300px;
+    max-height: 200px;
 }
 
-ul {
+
+.projetos ul {
     margin-top: 20px;
     font-weight: 700;
     font-size: 1.2rem;
     padding-left: 25px;
+}
+
+aside {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ecf4ff;
+    background-color: #234c61;
+    margin-top: 7.5px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    max-height: 220px;
+}
+
+aside::-webkit-scrollbar {
+    width: thin;
+}
+
+aside img{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    max-width: 50px;
 }
 
 a:visited,
@@ -109,7 +142,7 @@ footer {
 }
 
 .contacts h3 {
-    color: #1c1c1c;
+    color: #234c61;
 }
 
 .contacts img {
@@ -155,4 +188,9 @@ a:link {
 
 .dark .contacts h3 {
     color: #f7f7f7;
+}
+
+.dark aside{
+    background: #5b5d66;
+
 }
